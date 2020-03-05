@@ -3,7 +3,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+  <% if cart.size != 0 %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +48,11 @@
       <% end %>
     </div>
   </div>
-
+  
+  <% else %>
+    <div class="alert alert-info">
+  <strong>Empty Cart!</strong> Your cart is empty right now. Please click on the button below and go back to home page
+</div>
+    <%= link_to 'Back to shopping!', root_url, class: "btn btn-info btn-block btn-radius" %>
+    <% end %>
 </section>
