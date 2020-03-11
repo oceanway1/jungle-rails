@@ -25,3 +25,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+!["Screenshot of home page that displays all the products"](https://github.com/oceanway1/jungle-rails/blob/master/docs/home-page.png?raw=true)
+!["Screenshot of my cart page after choosing products"](https://github.com/oceanway1/jungle-rails/blob/master/docs/my-cart.png?raw=true)
+!["Screenshot of admin page that shows inventory of products"](https://github.com/oceanway1/jungle-rails/blob/master/docs/product-page-as-admin.png?raw=true)
